@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="autor" content="André Luis">
+        <meta name="description" content="Site Multas">
+        <meta name="robots" content="index, folow">
+        <title>Alerta Radar</title>
+        <link rel="stylesheet" href="./velocidade.css">
+        <script src="./velocidade.js"></script>
+    </head>
+    <body>
+
+        <div class="cabecalho">
+            <h1>Sistema de Multas - DETRAN SP</h1>
+        </div>
+
+        <div class="aviso">
+            <p><strong>ATENÇÃO!</strong> Limite de <strong>Máximo de 100km/h</strong>!</p>
+            <p><strong>ATENÇÃO!</strong> Limite de <strong>Mínimo de 60km/h</strong>!</p>
+        </div>
+
+        <div class="corpo">
+            <P></P>Radar de velocidade a 500 metros!</p>
+            <p>Digite a velocidade atual do seu veículo:<input type="number" name="txtvel"
+                id="txtvel" placeholder="Digite aqui">km/h.</p><!--pega o numero como string -->
+            <input type="button" value="Verificar" onclick="calcular()"><!--Envoca a função quando botão é clicado-->
+        </div>
+
+        <div id="res"> </div><!--abre uma div para a resposta-->
+
+        <footer class="rodapé">By André Luis 30-09-2022</footer>
+    </body>
+</html>

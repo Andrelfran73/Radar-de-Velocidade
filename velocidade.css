@@ -1,0 +1,40 @@
+.cabecalho {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 80px;
+    padding-top: 1px;
+    background-color: red;
+    text-shadow: ;
+    text-align: center;
+    color: white
+    
+}
+
+.aviso {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color:  black;
+    background-color: yellow;
+    height: 120px;
+    padding-top: 1px
+}
+.corpo {
+    font-size: 20px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(214, 240, 231);
+    padding-top: 50px;
+}
+
+.rodapé {
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+    background-color: rgb(228, 179, 118);
+}
+
+.resp {
+    text-align: center;
+    font-size: 18px;
+}
